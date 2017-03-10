@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+    <metadata>
+        <id>MementoFX.Messaging.Rebus</id>
+        <version>1.1.0-pre2</version>
+        <title>MementoFX Rebus</title>
+        <authors>Mastreeno ltd</authors>
+        <owners>Mastreeno ltd</owners>
+        <licenseUrl>http://www.mastreeno.com/license/evaluation</licenseUrl>
+        <projectUrl>http://mementofx.mastreeno.com</projectUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>A Rebus-powered event dispatcher for MementoFX</description>
+        <copyright>Copyright 2016 Mastreeno ltd. All rights reserved</copyright>
+        <tags>mementofx memento rebus bus cqrs ddd</tags>
+        <dependencies>
+            <dependency id="MementoFX" version="1.1.0-pre1" />
+            <dependency id="Rebus" version="0.99.50" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\src\MementoFX.Messaging.Rebus\bin\Release\Memento.Messaging.Rebus.dll" target="lib\net451\Memento.Messaging.Rebus.dll" />
+        <file src="..\src\MementoFX.Messaging.Rebus\bin\Release\Memento.Messaging.Rebus.pdb" target="lib\net451\Memento.Messaging.Rebus.pdb" />
+        <file src="..\src\MementoFX.Messaging.Rebus\bin\Release\Memento.Messaging.Rebus.XML" target="lib\net451\Memento.Messaging.Rebus.XML" />
+    </files>
+</package>
