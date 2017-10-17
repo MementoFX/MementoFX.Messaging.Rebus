@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Messaging.Rebus", "src\MementoFX.Messaging.Rebus\Memento.Messaging.Rebus.csproj", "{13C0BAA8-705C-422D-B550-3A067E570A70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoFX.Messaging.Rebus", "src\MementoFX.Messaging.Rebus\MementoFX.Messaging.Rebus.csproj", "{13C0BAA8-705C-422D-B550-3A067E570A70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Messaging.Rebus.Tests", "src\MementoFX.Messaging.Rebus.Tests\Memento.Messaging.Rebus.Tests.csproj", "{76ED6874-5AFE-4735-95E2-F92721BDA375}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoFX.Messaging.Rebus.Tests", "src\MementoFX.Messaging.Rebus.Tests\MementoFX.Messaging.Rebus.Tests.csproj", "{76ED6874-5AFE-4735-95E2-F92721BDA375}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32491B89-C1B5-47B5-9780-A5EE66D1EC44}
 	EndGlobalSection
 EndGlobal

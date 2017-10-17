@@ -1,7 +1,7 @@
 ﻿using Rebus.Bus;
 using System;
 
-namespace Memento.Messaging.Rebus
+namespace MementoFX.Messaging.Rebus
 {
     /// <summary>
     /// Provides the implementation a Memento event dispatcher
