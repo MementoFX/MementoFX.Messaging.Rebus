@@ -1,17 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Authors>andysal, mastreeno</Authors>
-    <Company>Mastreeno ltd</Company>
+    <Authors>Andrea Saltarello, Managed Designs</Authors>
+    <Company>Managed Designs</Company>
     <Description>A Rebus-powered event dispatcher for MementoFX</Description>
-    <Copyright>© 2017 Andrea Saltarello, Mastreeno ltd</Copyright>
+    <Copyright>© 2013-2018 Andrea Saltarello, Managed Designs</Copyright>
     <RepositoryUrl>https://github.com/MementoFX/MementoFX.Messaging.Rebus</RepositoryUrl>
-    <PackageProjectUrl>http://mementofx.mastreeno.com</PackageProjectUrl>
+    <PackageProjectUrl>https://opensource.manageddesigns.it/mementofx</PackageProjectUrl>
     <PackageLicenseUrl>https://opensource.org/licenses/RPL-1.5</PackageLicenseUrl>
-    <PackageTags>mementofx, memento, rebus, bus, cqrs, ddd</PackageTags>
+    <PackageTags>mementofx, mementofx, rebus, bus, cqrs, ddd</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Version>2.0.0-pre2</Version>
+    <Version>2.0.0-pre3</Version>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,7 +33,7 @@
     <DocumentationFile>bin\Release\MementoFX.Messaging.Rebus.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MementoFX" Version="2.0.0-pre5" />
+    <PackageReference Include="MementoFX" Version="2.0.0-pre6" />
     <PackageReference Include="Rebus" Version="5.0.1" />
   </ItemGroup>
   <ItemGroup>
