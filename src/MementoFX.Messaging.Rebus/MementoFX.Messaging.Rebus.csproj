@@ -11,7 +11,7 @@
     <PackageTags>mementofx, mementofx, rebus, bus, cqrs, ddd</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Version>2.0.0-pre3</Version>
+    <Version>2.0.0</Version>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,7 +33,7 @@
     <DocumentationFile>bin\Release\MementoFX.Messaging.Rebus.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MementoFX" Version="2.0.0-pre6" />
+    <PackageReference Include="MementoFX" Version="2.0.0" />
     <PackageReference Include="Rebus" Version="5.0.1" />
   </ItemGroup>
   <ItemGroup>
