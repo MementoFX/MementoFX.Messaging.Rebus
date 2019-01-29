@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <Product>MementoFX</Product>
-    <Company>Mastreeno ltd</Company>
+    <Company>Managed Designs</Company>
     <Authors>Andrea Saltarello, Managed Designs</Authors>
     <Version>2.0.0</Version>
     <Copyright>© 2013-2018 Andrea Saltarello, Managed Designs</Copyright>
