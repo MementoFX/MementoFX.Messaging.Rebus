@@ -4,7 +4,7 @@
     <Product>MementoFX</Product>
     <Company>Managed Designs</Company>
     <Authors>Andrea Saltarello, Managed Designs</Authors>
-    <Version>2.0.0</Version>
+    <Version>2.0.1-pre1</Version>
     <Copyright>© 2013-2018 Andrea Saltarello, Managed Designs</Copyright>
     <PackageProjectUrl>https://opensource.manageddesigns.it/mementofx</PackageProjectUrl>
     <PackageLicenseUrl>https://opensource.org/licenses/RPL-1.5</PackageLicenseUrl>
@@ -33,7 +33,7 @@
   <ItemGroup>
     <PackageReference Include="Castle.Core" Version="4.3.1" />
     <PackageReference Include="MementoFX" Version="2.0.0" />
-    <PackageReference Include="Rebus" Version="5.0.1" />
+    <PackageReference Include="Rebus" Version="6.3.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
     <PackageReference Include="Moq" Version="4.10.0" />
     <PackageReference Include="SharpTestsEx" Version="2.0.0" />
