@@ -3,6 +3,9 @@ A Rebus-powered event dispatcher for MementoFX
 
 **Release notes**
 
+Version 2.0.1-pre1
+- Rebus reference upgraded to v6.3.1
+
 Version 2.0.0
 - MementoFX reference updated to v2.0.0 GA
 - Rebus reference upgraded to v5.0.1
